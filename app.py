@@ -32,9 +32,9 @@ from linebot.models import (
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('XeCyvX9PLLCk74SS39QjZmFAbN+bX9w9/xKPNQUGb/QBTQAof5rwXEc3GepL49Pnduwc5YDuFV45gQqRxVt3Ibu1O4CgRbCNJU+lru5Rumj3UCxDLTdZ+WTGDe0miSP3pOC10BK8ryrK04dQ/E55lQdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('XvOs71zwF0kEM/IzrJOchDvHUOjIIsCbjIn8RUtGlgW1Qu3EDPSvjoCP61bZhrbmrmjoeGd0wZvT3BQSfftYkUC+S4HMQWmp0rHO0DXb3+B5qwWHNl1nJBACNJGBP8U1OEDjGPHsXGQnhu1vye82gwdB04t89/1O/w1cDnyilFU=')
 # Channel Secret NINO LIFF BOT
-handler = WebhookHandler('492b626c089d6b3ee86f6040bd6de238')
+handler = WebhookHandler('2e49cc936658f2cde43181ec640c18d0')
 #===========[ NOTE SAVER ]=======================
 notes = {}
 tokenz = {}
@@ -430,11 +430,11 @@ def handle_message(event):
         asu = cok.text
         message = TextSendMessage(text=asu)
         line_bot_api.reply_message(event.reply_token, message)
-    elif (text == '999+') or (text == '999++'):
-        message = TextSendMessage(text='ckk by')
+    elif (text == 'a') or (text == 'b'):
+        message = TextSendMessage(text='2.0.2.0.3.4.1.W.0.3.4.1.4.3.0.3.4.1.W.0.3.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.4.1.W.0.5.4.1.4.3.0..ᖼ.O.ᗱ.ᗴ.ℕ.♡.~.☆.💖.💔.💙.')
         line_bot_api.reply_message(event.reply_token, message)
-    elif (text == 'Bot') or (text == 'bot'):
-        message = TextSendMessage(text='Siapa bot? ke bot an lu')
+    elif (text == '1') or (text == '2'):
+        message = TextSendMessage(text='2.0.2.0.3.4.1.W.0.3.4.1.4.3.0.3.4.1.W.0.3.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.0.2.0.3.4.1.W.0.3.4.1.4.3.0.3.4.1.W.0.3.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.0.2.0.3.4.1.W.0.3.4.1.4.3.0.3.4.1.W.0.3.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0..ᖼ.O.ᗱ.ᗴ.ℕ.2.0.2.0.3.4.1.W.0.3.4.1.4.3.0.3.4.1.W.0.3.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.0.2.0.3.4.1.W.0.3.4.1.4.3.0.3.4.1.W.0.3.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.0.2.0.3.4.1.W.0.3.4.1.4.3.0.3.4.1.W.0.3.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0.2.4.1.W.0.5.4.1.4.3.0..ᖼ.O.ᗱ.ᗴ.ℕ.♡.~.☆.💖.💔.💙.')
         line_bot_api.reply_message(event.reply_token, message)
     elif (text == 'Tes') or (text == 'tes') or (text == 'Test') or (text == 'test'):
         message = TextSendMessage(text='suk beybeh')
